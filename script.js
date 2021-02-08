@@ -63,11 +63,7 @@ function mealRecipeModal(meal){
         <img src = "${meal.strMealThumb}" alt = "">
         </div>
         <h2 class = "recipe-title">${meal.strMeal}</h2>
-        <div class = "recipe-instruct">
-            <h3>Instructions:</h3>
-            <p>${meal.strInstructions}</p>
-            
-        </div>
+
        
     `;
     mealDetailsContent.innerHTML = html;
